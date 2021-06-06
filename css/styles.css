@@ -1119,13 +1119,12 @@ p {
   margin-top: 10px;
 
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.16;
   letter-spacing: 0.01em;
 
-  color: #757575;
+  color: var(--secondary-text);
 }
 
 .form-button {
@@ -1138,19 +1137,20 @@ p {
   margin-right: auto;
   transition: background-color var(--transition-duration)
     var(--transition-timing-function);
+
   background-color: var(--form-hover);
   border-radius: 4px;
   border-style: none;
   cursor: pointer;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
 
+  font-family: Roboto;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.85;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--bg-color);
 }
+
 .form-button:hover,
 .form-button:focus {
   background-color: #188ce8;
