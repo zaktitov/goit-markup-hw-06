@@ -1018,8 +1018,9 @@ p {
 .input-contact {
   width: 448px;
   height: 40px;
-
   padding: 11px 42px;
+
+  outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border-color var(--transition-duration)
